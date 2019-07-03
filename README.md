@@ -1,3 +1,7 @@
-# ergm
+# ERGM (Exponential Random Graph Models)
 
-# public git repo for my ERGM based research paper
+## A public repo for my ERGM based research paper
+
+## Paper
+## Abstract
+
