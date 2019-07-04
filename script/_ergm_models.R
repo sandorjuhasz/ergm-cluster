@@ -25,7 +25,7 @@ properties$export_dummy[properties$export_vol > 0] <- 1
 properties$ln_emp <- log(properties$employee)
 
 # create _network object
-Knet <-as.network(as.matrix(read.csv("network_data.csv", sep=";", header=TRUE, row.names = 1)), directed=TRUE)
+Knet <-as.network(as.matrix(read.csv("../data/network_data.csv", sep=";", header=TRUE, row.names = 1)), directed=TRUE)
 
 # add attributes
 network::set.vertex.attribute(Knet, "experience", properties$years_in_industry)
@@ -40,8 +40,8 @@ set.vertex.attribute(Knet, "profile", properties$main_field)
 set.vertex.attribute(Knet, "petofi_spinoff", properties$petofi_spinoff)
 
 # add proximities
-cogprox <- as.matrix(read.csv("cog_prox_matrix.csv", sep=";", header=TRUE, row.names = 1))
-geoprox <- as.matrix(read.csv("geo_prox_matrix.csv", sep=";", header=TRUE, row.names = 1))
+cogprox <- as.matrix(read.csv("../data/cog_prox_matrix.csv", sep=";", header=TRUE, row.names = 1))
+geoprox <- as.matrix(read.csv("../data/geo_prox_matrix.csv", sep=";", header=TRUE, row.names = 1))
 
 cog_network <- as.network(as.matrix(cogprox), directed = TRUE)
 geo_network <- as.network(as.matrix(geoprox), directed = TRUE)
