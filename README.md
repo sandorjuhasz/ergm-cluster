@@ -11,8 +11,12 @@ Juhász, S. (2019): Spinoffs and tie formation in cluster knowledge networks. *S
 
 
 *Network*
-
+The network (stored in matrix form) represents knowledge exchange between the firms in the printing and paper product cluster of Kecskemét, Hungary. 
+The following question was used to collect relational data on knowledge sharing in the cluster:
 *If you are in a critical situation and need technical advice, to which of the local firms mentioned in the roster do you turn?*
+Therefore, the matrix represents an advice network, where companies in rows ask technical advice from companies in columns.
+The networrk consists of 26 nodes (firms) and 223 edges.
+file: *network_data.csv*
 
 *Firm characteritics (properties)*
 
