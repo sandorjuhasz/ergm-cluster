@@ -27,15 +27,15 @@ file: *network_data.csv*
 Different characteristics of firms (or network nodes) are also available.
 
 'years_in_industry' := Years in industry (age or experience of firms<br/>
-'export_vol' := Export volume of firms (% of net revenue)
-\'net_rev_cat' := Net revenue category (higher number means higher net rev)
-\'f_owner' := foreign ownership dummy (1=foreign, 0=domestic company)
-\'external_links' := Number of extra-regional knowledge ties (organizations)
-\'spinoff' := spinoff dummy (1=spinoff, 0=non-spinoff company)
-\'abroad_links' := Number of knowledge ties to abroad
-\'main_field' := Categorical variable for the main activity of firms
-\'petofi_spinoff' := Whether a company is a spinoff of the oldest printing press of the region, Petőfi Press
-\file: *firm_properties.csv*
+'export_vol' := Export volume of firms (% of net revenue)<br/>
+'net_rev_cat' := Net revenue category (higher number means higher net rev)<br/>
+'f_owner' := foreign ownership dummy (1=foreign, 0=domestic company)<br/>
+'external_links' := Number of extra-regional knowledge ties (organizations)<br/>
+'spinoff' := spinoff dummy (1=spinoff, 0=non-spinoff company)<br/>
+'abroad_links' := Number of knowledge ties to abroad<br/>
+'main_field' := Categorical variable for the main activity of firms<br/>
+'petofi_spinoff' := Whether a company is a spinoff of the oldest printing press of the region, Petőfi Press<br/>
+file: *firm_properties.csv*
 
 
 
