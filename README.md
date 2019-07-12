@@ -18,15 +18,16 @@ The following question was used to collect relational data on knowledge sharing 
 *If you are in a critical situation and need technical advice, to which of the local firms mentioned in the roster do you turn?*
 
 Therefore, the matrix represents an advice network, where companies in rows ask technical advice from companies in columns.
-The networrk consists of 26 nodes (firms) and 223 edges.\ file: *network_data.csv*
+The networrk consists of 26 nodes (firms) and 223 edges.<br/>
+file: *network_data.csv*
 
 
 **Firm characteritics (properties)**
 
 Different characteristics of firms (or network nodes) are also available.
 
-'years_in_industry' := Years in industry (age or experience of firms
-\'export_vol' := Export volume of firms (% of net revenue)
+'years_in_industry' := Years in industry (age or experience of firms<br/>
+'export_vol' := Export volume of firms (% of net revenue)
 \'net_rev_cat' := Net revenue category (higher number means higher net rev)
 \'f_owner' := foreign ownership dummy (1=foreign, 0=domestic company)
 \'external_links' := Number of extra-regional knowledge ties (organizations)
