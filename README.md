@@ -10,5 +10,16 @@ Juhász, S. (2019): Spinoffs and tie formation in cluster knowledge networks. *S
 ## Data
 
 
+*Network*
+
+*If you are in a critical situation and need technical advice, to which of the local firms mentioned in the roster do you turn?*
+
+*Firm characteritics (properties)*
+
+
+*Similarity (proximity) of firms*
+
+
+
 ## Scripts
 
