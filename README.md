@@ -49,3 +49,14 @@ file: *cog_prox_matrix.csv*
 
 ## Scripts
 
+ERGM model script
+
+outputs in folder 'model_outputs'
+
+visualization by smglr packages (github)
+
+focal firm is the oldest parent company, Petőfi Press
+
+
+
+
