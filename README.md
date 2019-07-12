@@ -40,7 +40,12 @@ file: *firm_properties.csv*<br/>
 
 **Similarity (proximity) of firms**
 
+The geographical proximity of firms is measured as the distance of the selected pair of firms subtracted from the maximum physical distance between firms in the cluster (in km). As a result, the variable takes a higher value as the distance between firms diminishes.<br/>
+file: *geo_prox_matrix.csv*<br/>
 
+Cognitive proximity is made operational as the number of digits the two firms have in common in their 4-digit NACE codes.<br/>
+file: *cog_prox_matrix.csv*
+<br/>
 
 ## Scripts
 
