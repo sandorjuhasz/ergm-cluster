@@ -21,7 +21,6 @@ Therefore, the matrix represents an advice network, where companies in rows ask 
 The networrk consists of 26 nodes (firms) and 223 edges.<br/>
 file: *network_data.csv*<br/>
 <br/>
-<br/>
 
 **Firm characteritics (properties)**
 
@@ -36,10 +35,8 @@ Different characteristics of firms (or network nodes) are also available.
 'abroad_links' := Number of knowledge ties to abroad<br/>
 'main_field' := Categorical variable for the main activity of firms<br/>
 'petofi_spinoff' := Whether a company is a spinoff of the oldest printing press of the region, Petőfi Press<br/>
-file: *firm_properties.csv*
-
-
-
+file: *firm_properties.csv*<br/>
+<br/>
 
 **Similarity (proximity) of firms**
 
