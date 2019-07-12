@@ -26,8 +26,9 @@ file: *network_data.csv*
 
 Different characteristics of firms (or network nodes) are also available.
 
-'years_in_industry' := Years in industry (age or experience of firms)
-'export_vol' := Export volume of firms (% of net revenue)
+'years_in_industry' := Years in industry (age or experience of firms\
+'export_vol' := Export volume of firms (% of net revenue)\
+
 'net_rev_cat' := Net revenue category (higher number means higher net rev)
 'f_owner' := foreign ownership dummy (1=foreign, 0=domestic company)
 'external_links' := Number of extra-regional knowledge ties (organizations)
