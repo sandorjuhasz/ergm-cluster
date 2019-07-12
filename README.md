@@ -10,7 +10,7 @@ Juhász, S. (2019): Spinoffs and tie formation in cluster knowledge networks. *S
 ## Data
 
 
-*Network*
+**Network**
 
 The network (stored in matrix form) represents knowledge exchange between the firms in the printing and paper product cluster of Kecskemét, Hungary. 
 The following question was used to collect relational data on knowledge sharing in the cluster:
@@ -22,20 +22,25 @@ The networrk consists of 26 nodes (firms) and 223 edges.
 file: *network_data.csv*
 
 
-*Firm characteritics (properties)*
+**Firm characteritics (properties)**
 
 Different characteristics of firms (or network nodes) are also available.
 
-Years in industry (age or experience of firms) := 'years_in_industry'
+'years_in_industry' := Years in industry (age or experience of firms)
+'export_vol' := Export volume of firms (% of net revenue)
+'net_rev_cat' := Net revenue category (higher number means higher net rev)
+'f_owner' := foreign ownership dummy (1=foreign, 0=domestic company)
+'external_links' := Number of extra-regional knowledge ties (organizations)
+'spinoff' := spinoff dummy (1=spinoff, 0=non-spinoff company)
+'abroad_links' := Number of knowledge ties to abroad
+'main_field' := Categorical variable for the main activity of firms
+'petofi_spinoff' := Whether a company is a spinoff of the oldest printing press of the region, Petőfi Press
+file: *firm_properties.csv*
 
-Export volume of firms (% from net revenuee) := 'export_vol'
-
-Net revenue category := 'net_rev_cat'
 
 
 
-
-*Similarity (proximity) of firms*
+**Similarity (proximity) of firms**
 
 
 
