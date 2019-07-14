@@ -38,7 +38,7 @@ la <- layout_with_graphopt(graph, niter=500)*100
 
 ## PLOT
 title <- "spinoffs_in_knowledge_network"
-file_name <- paste("../figures/", title, ".png")
+file_name <- paste("../figures/", title, ".png", sep="")
 png(file_name, width=1200, height=900, units = 'px')
 
 par(mar=c(1,1,0,0) + 0.1)
@@ -82,7 +82,7 @@ layout_full$ID <- prop$ID
 
 # full graph plot
 title <- "focal_Petofi_graph_full"
-file_name <- paste("../figures/", title, ".png")
+file_name <- paste("../figures/", title, ".png", sep="")
 png(file_name, width=600, height=600, units = 'px')
 
 ggraph(graph, layout="manual",
@@ -116,7 +116,7 @@ layout_small <- filter(layout_full, ID %in% spin_ids)
 
 # subgraph plot
 title <- "only_spinoffs_and_focal"
-file_name <- paste("../figures/", title, ".png")
+file_name <- paste("../figures/", title, ".png", sep="")
 png(file_name, width=600, height=600, units = 'px')
 
 ggraph(graph2, layout="manual",
