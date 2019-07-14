@@ -54,6 +54,10 @@ ERGM model script
 
 outputs in folder 'model_outputs'
 
+Spinoffs in the network
+
+![](figures/spinoffs_in_knowledge_network.png)
+
 visualization by smglr packages (github)
 
 focal firm is the oldest parent company, Petőfi Press
