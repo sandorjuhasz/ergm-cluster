@@ -60,6 +60,10 @@ Spinoffs in the network
 
 visualization by smglr packages (github)
 
+<img src="figures/focal_Petofi_graph_full.png" width="425"/> <img src="figures/focal_Petofi_graph_full.png" width="425"/> 
+
+
+
 
 ![alt-text-1](figures/focal_Petofi_graph_full.png "Plot 2A") ![alt-text-2](figures/only_spinoffs_and_focal.png "Plot 2B")
 
