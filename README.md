@@ -60,6 +60,10 @@ Spinoffs in the network
 
 visualization by smglr packages (github)
 
+
+![alt-text-1](figures/focal_Petofi_graph_full.png "Plot 2A") ![alt-text-2](figures/only_spinoffs_and_focal.png "Plot 2B")
+
+
 focal firm is the oldest parent company, Petőfi Press
 ![](figures/focal_Petofi_graph_full.png)
 
