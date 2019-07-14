@@ -6,7 +6,7 @@ library(data.table)
 library(dplyr)
 library(igraph)
 library(ggraph)
-library(smglr)
+library(graphlayouts)
 
 # for reproduction
 set.seed(16)

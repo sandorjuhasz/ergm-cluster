@@ -50,29 +50,23 @@ file: *cog_prox_matrix.csv*
 
 ## Scripts
 
-ERGM model script
+file: *_ergm_models.R*<br/>
+The R script for my ERGM models.
 
-outputs in folder 'model_outputs'
+file: *_network_visualization.R*<br/>
+The R script to visualize the network<br/>
+<br/>
+ The first figure represents spinoff companies in the cluster knowledge network. Spinoffs are maked by grey colour. The size of the nodes is proportional to in-degree.<br/>
+ <br/>
 
-Spinoffs in the network
+![](figures/spinoffs_in_knowledge_network.png)<br/>
+<br/>
+The next two figures shows the oldest local printing press as the focal node (A), and its ties to spinoff companies.<br/>
+These figures are made by the great *graphlayouts* package.<br/>
+link: *https://github.com/schochastics/graphlayouts*<br/>
+<br/>
 
-![](figures/spinoffs_in_knowledge_network.png)
-
-visualization by smglr packages (github)
-
-<img src="figures/focal_Petofi_graph_full.png" width="425"/> <img src="figures/focal_Petofi_graph_full.png" width="425"/> 
-
-
-
-
-![alt-text-1](figures/focal_Petofi_graph_full.png "Plot 2A") ![alt-text-2](figures/only_spinoffs_and_focal.png "Plot 2B")
-
-
-focal firm is the oldest parent company, Petőfi Press
-![](figures/focal_Petofi_graph_full.png)
-
-focal firm is the oldest parent company, Petőfi Press and ONLY spinoff companies present in the network
-![](figures/only_spinoffs_and_focal.png)
+<img src="figures/focal_Petofi_graph_full.png" width="425"/> <img src="figures/only_spinoffs_and_focal.png" width="425"/> 
 
 
 
