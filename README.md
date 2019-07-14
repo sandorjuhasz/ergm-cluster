@@ -61,6 +61,11 @@ Spinoffs in the network
 visualization by smglr packages (github)
 
 focal firm is the oldest parent company, Petőfi Press
+![](figures/focal_Petofi_graph_full.png)
+
+focal firm is the oldest parent company, Petőfi Press and ONLY spinoff companies present in the network
+![](figures/only_spinoffs_and_focal.png)
+
 
 
 
