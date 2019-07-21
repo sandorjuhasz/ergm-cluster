@@ -19,7 +19,7 @@ The following question was used to collect relational data on knowledge sharing 
 *If you are in a critical situation and need technical advice, to which of the local firms mentioned in the roster do you turn?*
 
 Therefore, the matrix represents an advice network, where companies in rows ask technical advice from companies in columns.
-The networrk consists of 26 nodes (firms) and 223 edges.<br/>
+The network consists of 26 nodes (firms) and 223 edges.<br/>
 file: *network_data.csv*<br/>
 <br/>
 
