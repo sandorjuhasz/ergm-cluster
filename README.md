@@ -51,7 +51,9 @@ file: *cog_prox_matrix.csv*
 ## Scripts
 
 file: *_ergm_models.R*<br/>
-The R script for my ERGM models.
+The R script for my ERGM models.<br/>
+More about ERGMs. *https://statnet.org/trac/raw-attachment/wiki/Sunbelt2016/ergm_tutorial.html*<br/>
+
 
 file: *_network_visualization.R*<br/>
 The R script to visualize the network<br/>
