@@ -1,0 +1,31 @@
+
+==========================
+Summary of model fit
+==========================
+
+Formula:   Knet ~ edges + mutual + gwesp(0.32, fixed = TRUE) + gwdsp(1.725, 
+    fixed = TRUE) + nodefactor("spinoff") + nodecov("ln_emp") + 
+    nodecov("external_links") + nodematch("f_owner", diff = FALSE) + 
+    edgecov(geo_network, "geoprox") + edgecov(cog_network, "cogprox")
+
+Iterations:  3 out of 20 
+
+Monte Carlo MLE Results:
+                        Estimate Std. Error MCMC % z value Pr(>|z|)    
+edges                  -4.638064   0.761854      0  -6.088  < 1e-04 ***
+mutual                  1.605080   0.267890      0   5.992  < 1e-04 ***
+gwesp.fixed.0.32        1.936277   0.476971      0   4.060  < 1e-04 ***
+gwdsp.fixed.1.725      -0.184669   0.049561      0  -3.726 0.000194 ***
+nodefactor.spinoff.1    0.423719   0.130406      0   3.249 0.001157 ** 
+nodecov.ln_emp          0.012758   0.047457      0   0.269 0.788054    
+nodecov.external_links  0.015034   0.006406      0   2.347 0.018938 *  
+nodematch.f_owner       0.491739   0.147077      0   3.343 0.000828 ***
+edgecov.geoprox         0.119912   0.034926      0   3.433 0.000596 ***
+edgecov.cogprox         0.017973   0.042355      0   0.424 0.671317    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+     Null Deviance: 901.1  on 650  degrees of freedom
+ Residual Deviance: 712.0  on 640  degrees of freedom
+ 
+AIC: 732    BIC: 776.7    (Smaller is better.) 
