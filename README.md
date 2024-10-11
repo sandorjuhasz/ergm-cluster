@@ -1,4 +1,4 @@
-# ERGM (Exponential Random Graph Models)
+## ERGMs (Exponential Random Graph Models) to study industry clusters
 
 ###### This is a public repository for the article
 
